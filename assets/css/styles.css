@@ -201,9 +201,9 @@ body.dark-theme {
 }
 
 .profile__profession {
-  font-size: var(--smaller-font-size);
-  font-weight: 500;
-  color: var(--text-color);
+  font-size: 15px;
+  font-weight: 600;
+  color: #1d8bf2;
   margin-bottom: 1rem;
 }
 

@@ -30,7 +30,7 @@
                     </div>
 
                     <h2 class="profile__name">Héctor Huamán Gavino</h2>
-                    <h3 class="profile__profession">Data Scientist - Data Analyst</h3>
+                    <h3 class="profile__profession"><span class="auto-type"></span></h3>
 
                     <ul class="profile__social">
                         <a href="https://www.linkedin.com/" target="_blank" class="profile__social-link">
@@ -51,7 +51,7 @@
    
                     <div class="profile__info-group">
                         <p class="profile__info-description">
-                            “Any sufficiently advanced technology is indistinguishable from magic.”
+                            “Any sufficiently advanced technology is indistinguishable from magic”
                         </p>
                     </div>
 
@@ -162,13 +162,13 @@
                         </article>
                   
                         <article class="projects__card">
-                            <img src="assets/img/heatmap.png" alt="" class="projects__img">
+                            <img src="assets/img/olympics.jpg" alt="" class="projects__img">
 
                             <div class="projects__modal">
                                 <div>
                                     <span class="projects__subtitle">Python</span>
-                                    <h3 class="projects__title">Exploratory Data Analysis</h3>
-                                    <a href="https://titowmn.github.io/EDA-BostonHousing/index.html" class="projects__button button button__small">
+                                    <h3 class="projects__title">Olympics Exploratory Data Analysis</h3>
+                                    <a href="" class="projects__button button button__small">
                                         <i class="ri-link"></i>
                                     </a>
                                 </div>
@@ -260,6 +260,16 @@
         <!--=============== SCROLLREVEAL ===============-->
         <script src="assets/js/scrollreveal.min.js"></script>
 
+         <!--=============== Text Typing ===============-->
+         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+         <script>
+            var typed = new Typed(".auto-type",{
+                strings: ["Data Scientist", "Data Analyst", "Machine Learning Engineer"],
+                typeSpeed: 85,
+                backSpeed: 85,
+                loop: true
+            })
+        </script>
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
     </body>
