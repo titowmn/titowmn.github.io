@@ -380,6 +380,15 @@ body.dark-theme {
 
 }
 
+.skills__content_h {
+  position: relative;
+  display: grid;
+  width: auto;
+  height: auto;
+  padding-bottom: var(--mb-0-75);
+  margin: auto;
+  margin-bottom: var(--mb-2);
+}
 
 /*=============== SKILLS HEREDAR===============*/
 
